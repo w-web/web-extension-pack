@@ -1,0 +1,45 @@
+{
+  "name": "web-extension-pack",
+  "displayName": "Web Extension Pack",
+  "description": "Popular Visual Studio Code extensions for Web",
+  "version": "0.1.0",
+  "publisher": "wangyining",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "keywords": [
+    "web",
+    "javascript",
+    "extension-pack"
+  ],
+  "repository": "https://github.com/w-web/web-extension-pack",
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "ms-vscode.sublime-keybindings",
+    "robertohuertasm.vscode-icons",
+    "christian-kohler.path-intellisense",
+    "formulahendry.code-runner",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "xabikos.JavaScriptSnippets",
+    "octref.vetur",
+    "dariofuzinato.vue-peek",
+    "oysun.vuehelper",
+    "qiu8310.minapp-vscode",
+    "eg2.vscode-npm-script",
+    "felixfbecker.php-intellisense",
+    "felixfbecker.php-debug"
+  ]
+}
