@@ -41,5 +41,21 @@
     "eg2.vscode-npm-script",
     "felixfbecker.php-intellisense",
     "felixfbecker.php-debug"
-  ]
+  ],
+  "main": "src/extension.js",
+  "activationEvents": [
+    "onCommand:web.extension.pack.setting"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "web.extension.pack.setting",
+        "title": "默认配置(WebExtensionPack)",
+        "category": "设置"
+      }
+    ]
+  },
+  "dependencies": {
+    "jsonc-parser": "^2.0.2"
+  }
 }
